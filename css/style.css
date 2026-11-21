@@ -1,0 +1,32 @@
+.bg-idle-stripes {
+  background-color: #f1f5f9;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(71, 85, 105, 0.35),
+    rgba(71, 85, 105, 0.35) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+#guide-modal,
+#guide-modal * {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#guide-modal::-webkit-scrollbar,
+#guide-modal *::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
